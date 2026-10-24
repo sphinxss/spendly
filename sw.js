@@ -1,6 +1,6 @@
 /* Spendly service worker — offline app shell */
 
-const CACHE = "spendly-v1";
+const CACHE = "spendly-v2";
 const ASSETS = [
   "./",
   "./index.html",

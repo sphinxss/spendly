@@ -150,6 +150,23 @@
       ["expense", 1400, "transport", "Fuel", dateIn(2, 12)],
       ["expense", 3800, "bills", "Electricity and water", dateIn(2, 14)],
       ["expense", 900, "shopping", "Books", dateIn(2, 20)],
+      ["income", 40000, "salary", "Monthly salary", dateIn(3, 1)],
+      ["expense", 12000, "bills", "Apartment rent", dateIn(3, 2)],
+      ["expense", 5800, "food", "Groceries", dateIn(3, 6)],
+      ["expense", 1699, "bills", "Internet bill", dateIn(3, 9)],
+      ["expense", 1100, "transport", "Fuel", dateIn(3, 13)],
+      ["expense", 2200, "shopping", "Desk lamp and cables", dateIn(3, 19)],
+      ["income", 40000, "salary", "Monthly salary", dateIn(4, 1)],
+      ["expense", 12000, "bills", "Apartment rent", dateIn(4, 2)],
+      ["expense", 5600, "food", "Groceries", dateIn(4, 8)],
+      ["expense", 2300, "bills", "Electricity", dateIn(4, 14)],
+      ["expense", 1200, "fun", "Weekend trip", dateIn(4, 21)],
+      ["income", 40000, "salary", "Monthly salary", dateIn(5, 1)],
+      ["expense", 12000, "bills", "Apartment rent", dateIn(5, 2)],
+      ["expense", 6100, "food", "Groceries", dateIn(5, 7)],
+      ["expense", 1350, "transport", "Monthly transit card", dateIn(5, 9)],
+      ["expense", 1699, "bills", "Internet bill", dateIn(5, 10)],
+      ["expense", 800, "health", "Pharmacy", dateIn(5, 18)],
     ];
 
     state.transactions = rows.map(([type, amount, category, note, date]) => ({
